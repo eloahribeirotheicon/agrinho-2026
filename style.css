@@ -1,108 +1,32 @@
-body {
+* {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #fff8dc;
-    color: #333;
-}
-
-header {
-    background-color: #f4c542;
-    text-align: center;
-    padding: 20px;
-}
-
-header h1 {
-    margin: 0;
-}
-
-nav {
-    margin-top: 10px;
-}
-
-nav a {
-    margin: 10px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-
-section {
-    padding: 40px;
-    max-width: 800px;
-    margin: auto;
-}
-
-h2 {
-    color: #b8860b;
-}
-
-ul {
-    line-height: 1.8;
-}
-
-footer {
-    text-align: center;
-    padding: 15px;
-    background-color: #f4c542;
-    margin-top: 20px;
-}
-html {
-    scroll-behavior: smooth;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
     background-color: #fff8e1;
-}
-
-/* cada seção vira uma “tela inteira” */
-.tela {
-    min-height: 100vh;   /* ISSO AQUI É O PRINCIPAL */
-    padding: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-/* títulos mais fortes */
-h1 {
-    font-size: 60px;
-}
-
-h2 {
-    font-size: 40px;
-}
-
-p {
-    font-size: 20px;
-    line-height: 1.7;
-    
-}
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #fff8e1;
-    background-image: linear-gradient(135deg, #fff8e1 25%, #fff3c4 25%, #fff3c4 50%, #fff8e1 50%, #fff8e1 75%, #fff3c4 75%, #fff3c4 100%);
-    background-size: 40px 40px;
-}
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #fff8e1, #fff3c4);
+    background-image: radial-gradient(#f7d24c 1px, transparent 1px);
+    background-size: 25px 25px;
     color: #222;
+    padding-top: 80px;
 }
 
-/* TOPO ESTILO MARCA */
+/* ===== MENU FIXO ===== */
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #f7d24c;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
-    background-color: #f7d24c;
+    padding: 15px 40px;
+    z-index: 1000;
 }
 
-/* MENU */
 nav a {
     margin: 0 12px;
     text-decoration: none;
@@ -110,23 +34,24 @@ nav a {
     font-weight: bold;
 }
 
-/* PRIMEIRA TELA (ESTILO DA IMAGEM BONITA) */
+/* ===== PRIMEIRA TELA (HERO) ===== */
 #inicio {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 80px 50px;
     min-height: 100vh;
+    padding: 80px 60px;
     gap: 40px;
 }
 
-/* TITULOS GRANDES */
+/* ===== TÍTULOS ===== */
 h1 {
     font-size: 50px;
 }
 
 h2 {
     font-size: 38px;
+    margin-bottom: 10px;
 }
 
 p {
@@ -134,14 +59,19 @@ p {
     line-height: 1.6;
 }
 
-/* SEÇÕES GRANDES */
+/* ===== SEÇÕES GRANDES ===== */
 .tela {
     min-height: 100vh;
-    padding: 80px 50px;
+    padding: 80px 60px;
 }
 
-/* IMAGEM BONITA */
+/* ===== IMAGENS ===== */
 img {
-    max-width: 400px;
-    border-radius: 10px;
+    max-width: 420px;
+    border-radius: 12px;
+}
+
+/* ===== AJUSTE GERAL ===== */
+section {
+    scroll-margin-top: 90px;
 }
