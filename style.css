@@ -1,2 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8e1;
+    color: #222;
+}
+
+/* MENU NORMAL (SEM BUG) */
+header {
+    background: #f7d24c;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+/* SEÇÕES GRANDES */
+section {
+    padding: 80px 40px;
+    min-height: 100vh;
+}
+
+/* TÍTULOS */
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* IMAGEM (SÓ SE TIVER) */
+img {
+    max-width: 100%;
+    height: auto;
+}
 
