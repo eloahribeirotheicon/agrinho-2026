@@ -86,3 +86,62 @@ body {
     background-image: linear-gradient(135deg, #fff8e1 25%, #fff3c4 25%, #fff3c4 50%, #fff8e1 50%, #fff8e1 75%, #fff3c4 75%, #fff3c4 100%);
     background-size: 40px 40px;
 }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fff8e1, #fff3c4);
+    color: #222;
+}
+
+/* TOPO ESTILO MARCA */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #f7d24c;
+}
+
+/* MENU */
+nav a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* PRIMEIRA TELA (ESTILO DA IMAGEM BONITA) */
+#inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 50px;
+    min-height: 100vh;
+    gap: 40px;
+}
+
+/* TITULOS GRANDES */
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 38px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/* SEÇÕES GRANDES */
+.tela {
+    min-height: 100vh;
+    padding: 80px 50px;
+}
+
+/* IMAGEM BONITA */
+img {
+    max-width: 400px;
+    border-radius: 10px;
+}
