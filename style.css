@@ -5,18 +5,24 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #fff8e1;
+    font-family: Arial;
+    background: #fff8e1;
     color: #222;
+    padding-top: 90px;
 }
 
-/* MENU NORMAL (SEM BUG) */
+/* MENU FIXO */
 header {
+    position: fixed;
+    top: 0;
+    width: 100%;
     background: #f7d24c;
-    padding: 20px;
     text-align: center;
+    padding: 15px;
+    z-index: 1000;
 }
 
+/* MENU */
 nav a {
     margin: 0 10px;
     text-decoration: none;
@@ -24,41 +30,26 @@ nav a {
     color: black;
 }
 
-/* SEÇÕES GRANDES */
+/* CADA PARTE GRANDE */
 section {
-    padding: 80px 40px;
     min-height: 100vh;
+    padding: 60px;
 }
 
-/* TÍTULOS */
-h1 {
-    font-size: 40px;
-}
-
+/* TEXTO GRANDE */
 h2 {
-    font-size: 32px;
+    font-size: 36px;
+    margin-bottom: 10px;
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.6;
 }
 
-/* IMAGEM (SÓ SE TIVER) */
+/* IMAGEM CORRETA */
 img {
+    margin-top: 20px;
     max-width: 100%;
-    height: auto;
-}
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: #f7d24c;
-    padding: 15px;
-    text-align: center;
-    z-index: 1000;
-}
-body {
-    padding-top: 90px;
+    border-radius: 10px;
 }
