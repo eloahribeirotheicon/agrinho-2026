@@ -289,3 +289,53 @@ margin-top:30px;
     font-size: 20px;
     margin-bottom: 15px;
 }
+/* COMO FUNCIONA */
+
+.funciona-container{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:20px;
+flex-wrap:wrap;
+margin-top:40px;
+}
+
+.etapa{
+
+background:white;
+
+padding:25px;
+
+border-radius:18px;
+
+width:220px;
+
+box-shadow:0 8px 20px rgba(0,0,0,.12);
+
+text-align:center;
+
+transition:.3s;
+
+}
+
+.etapa:hover{
+
+transform:translateY(-8px);
+
+}
+
+.etapa h3{
+
+color:#1976D2;
+
+margin-bottom:15px;
+
+}
+
+.seta{
+
+font-size:40px;
+
+color:#1976D2;
+
+}
