@@ -430,10 +430,12 @@ color:#1976D2;
 
 .logo p{
 
-font-size:12px;
+font-size:11px;
 
-margin:0;
+margin:2px 0 0 0;
 
-color:#555;
+color:#666;
+
+line-height:1.2;
 
 }
