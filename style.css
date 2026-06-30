@@ -1,4 +1,4 @@
-/* Importa uma fonte moderna */
+⁹/* Importa uma fonte moderna */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 /* Configurações gerais */
@@ -337,5 +337,52 @@ margin-bottom:15px;
 font-size:40px;
 
 color:#1976D2;
+
+}
+/* BENEFÍCIOS */
+
+.beneficios-container{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:30px;
+
+margin-top:40px;
+
+}
+
+.card-beneficio{
+
+background:white;
+
+padding:30px;
+
+border-radius:20px;
+
+box-shadow:0 10px 20px rgba(0,0,0,.12);
+
+transition:.3s;
+
+}
+
+.card-beneficio:hover{
+
+transform:translateY(-8px);
+
+}
+
+.card-beneficio h3{
+
+color:#1976D2;
+
+margin-bottom:15px;
+
+}
+
+.card-beneficio p{
+
+line-height:1.7;
 
 }
