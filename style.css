@@ -248,42 +248,44 @@ margin-top:30px;
 }
 
 }
-<section id="solucao">
+/* Nossa Solução */
 
-<h2>Nossa Solução</h2>
+.solucao-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    margin-top: 40px;
+    flex-wrap: nowrap;
+}
 
-<div class="solucao-container">
+.solucao-imagem {
+    flex: 1;
+}
 
-<div class="solucao-imagem">
+.solucao-imagem img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.2);
+}
 
-<img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800" alt="Plantação">
+.solucao-texto {
+    flex: 1;
+}
 
-</div>
+.solucao-texto h3 {
+    font-size: 32px;
+    color: #1976D2;
+    margin-bottom: 20px;
+}
 
-<div class="solucao-texto">
+.solucao-texto ul {
+    margin-top: 25px;
+    padding-left: 20px;
+}
 
-<h3>RaizLink 🌱</h3>
-
-<p>
-
-O RaizLink é um sistema inteligente desenvolvido pela HydroSense para monitorar a umidade do solo em tempo real. Sensores instalados próximos às raízes enviam informações para uma inteligência artificial que controla automaticamente a irrigação.
-
-</p>
-
-<ul>
-
-<li>💧 Economiza água</li>
-
-<li>🌱 Melhora o crescimento das plantas</li>
-
-<li>📡 Monitoramento em tempo real</li>
-
-<li>🤖 Irrigação inteligente</li>
-
-</ul>
-
-</div>
-
-</div>
-
-</section>
+.solucao-texto li {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
