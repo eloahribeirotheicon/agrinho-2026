@@ -42,7 +42,7 @@ body{
 
 .logo h2{
 
-     header{
+     cheader{
     position: fixed;
     top: 0;
     left: 0;
@@ -60,7 +60,7 @@ body{
     z-index: 1000;
 
     flex-wrap: nowrap;
-
+     }color:#1976D2;
 
 }
 
